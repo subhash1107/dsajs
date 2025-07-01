@@ -31,7 +31,7 @@ console.log(countNegative([2,8,2,8,-5,-6,4,-5,-3]))
 // find the largest number in the Array
 
 function findLargest (arr){
-    let largest = 0
+    let largest = -Infinity
     for(let i=0;i<arr.length;i++){
       if(arr[i]>largest){
         largest = arr[i]
