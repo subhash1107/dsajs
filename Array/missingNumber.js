@@ -54,6 +54,11 @@
 
 // using xor operator
 
+// The key factor is that when we xor any number with same number then it returns 0 and when we xor any number with 0 then it returns the same number.
+// So what we can do is like we were doing in all above approach we are just adding up the espected numbers and then subtracting the actual addition then finding missing single number.
+// Here we can do like we have to xor in the expected number and then just xor out with the numbers we have then we will get the expected output.
+
+
 function missingNumber(nums){
     let xor = 0
     for(let i = 0; i<= nums.length; i++){
