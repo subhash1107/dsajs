@@ -35,6 +35,7 @@ dsa/
 ```
 
 ## Array
+
 A collection of classic array manipulation and algorithmic problems:
 
 - **bestTime.js**: Find the maximum profit from a single buy and sell of stock (Best Time to Buy and Sell Stock).
@@ -45,8 +46,11 @@ A collection of classic array manipulation and algorithmic problems:
 - **removeElement.js**: Remove all occurrences of a given value from an array in-place and return the new length.
 - **removingDuplicates.js**: Remove duplicates from a sorted array.
 - **reverseString.js**: Reverse a string in-place given as an array of characters.
+- **singleNumber.js**: Find the element that appears only once in an array where every other element appears exactly twice.
+- **singleNumber-ii.js**: Find the element that appears only once in an array where every other element appears exactly three times.
 
 ## Basic Programming
+
 General programming and algorithmic challenges:
 
 - **coercion.js**: Demonstrates JavaScript type coercion with various types.
@@ -58,12 +62,14 @@ General programming and algorithmic challenges:
 - **typeof.js**: Demonstrates the use of the `typeof` operator on various JavaScript types.
 
 ### nestedLoop
+
 Problems involving nested loops, often for grid or pattern generation:
 
 - **fullgrid.js**: Print a full grid of numbers using nested loops.
 - **lowerTriangle.js**: Print lower triangle patterns of numbers using nested loops.
 
 #### starPattern
+
 Star and number pattern problems using nested loops:
 
 - **centerpyramid.js**: Print centered pyramid star patterns in multiple ways.
