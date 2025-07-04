@@ -1,17 +1,23 @@
 # DSA Project
 
-This repository contains a collection of Data Structures and Algorithms (DSA) practice problems and solutions, organized by topic and concept. Each folder contains JavaScript implementations of various problems, with clear and concise code.
+This repository contains a comprehensive collection of Data Structures and Algorithms (DSA) practice problems and solutions, organized by topic. Each file provides a JavaScript implementation of a classic problem, with clear code and problem statements for learning and interview preparation.
 
 ## Folder Structure
 
 ```
-DSA/
+dsa/
 ├── Array/
+│   ├── bestTime.js
+│   ├── maxConsecutiveOnes.js
+│   ├── mergeSortedArray.js
+│   ├── missingNumber.js
+│   ├── moveZeroes.js
 │   ├── removeElement.js
 │   ├── removingDuplicates.js
 │   └── reverseString.js
 ├── Basic Programming/
 │   ├── coercion.js
+│   ├── isPrime.js
 │   ├── loop.js
 │   ├── nestedLoop/
 │   │   ├── fullgrid.js
@@ -28,43 +34,43 @@ DSA/
 │   └── typeof.js
 ```
 
-## Folder Descriptions
+## Array
+A collection of classic array manipulation and algorithmic problems:
 
-### Array
+- **bestTime.js**: Find the maximum profit from a single buy and sell of stock (Best Time to Buy and Sell Stock).
+- **maxConsecutiveOnes.js**: Find the maximum number of consecutive 1's in a binary array.
+- **mergeSortedArray.js**: Merge two sorted arrays into one sorted array in-place.
+- **missingNumber.js**: Find the missing number in an array containing n distinct numbers in the range [0, n].
+- **moveZeroes.js**: Move all zeroes in an array to the end while maintaining the order of non-zero elements.
+- **removeElement.js**: Remove all occurrences of a given value from an array in-place and return the new length.
+- **removingDuplicates.js**: Remove duplicates from a sorted array.
+- **reverseString.js**: Reverse a string in-place given as an array of characters.
 
-Contains solutions to common array manipulation problems, such as removing elements, removing duplicates, and reversing strings.
+## Basic Programming
+General programming and algorithmic challenges:
 
-- **removeElement.js**: Remove specific elements from an array.
-- **removingDuplicates.js**: Remove duplicate values from an array.
-- **reverseString.js**: Reverse the characters in a string.
+- **coercion.js**: Demonstrates JavaScript type coercion with various types.
+- **isPrime.js**: Check if a number is prime using different methods.
+- **loop.js**: Examples of searching, counting, and finding min/max in arrays using loops.
+- **pallindrome.js**: Check if a number is a palindrome using multiple approaches.
+- **reversedInteger.js**: Reverse the digits of an integer, handling negatives and overflow.
+- **secondlargest.js**: Find the second largest and second smallest numbers in an array.
+- **typeof.js**: Demonstrates the use of the `typeof` operator on various JavaScript types.
 
-### Basic Programming
+### nestedLoop
+Problems involving nested loops, often for grid or pattern generation:
 
-General programming problems and basic algorithmic challenges.
+- **fullgrid.js**: Print a full grid of numbers using nested loops.
+- **lowerTriangle.js**: Print lower triangle patterns of numbers using nested loops.
 
-- **coercion.js**: Demonstrates type coercion in JavaScript.
-- **loop.js**: Examples of different looping constructs.
-- **pallindrome.js**: Checks if a string or number is a palindrome.
-- **reversedInteger.js**: Reverses the digits of an integer.
-- **secondlargest.js**: Finds the second largest number in an array.
-- **typeof.js**: Demonstrates the use of the `typeof` operator.
+#### starPattern
+Star and number pattern problems using nested loops:
 
-#### nestedLoop
-
-Problems involving nested loops, often for grid or pattern generation.
-
-- **fullgrid.js**: Generates a full grid pattern.
-- **lowerTriangle.js**: Generates a lower triangle pattern.
-
-##### starPattern
-
-Star pattern problems using nested loops.
-
-- **centerpyramid.js**: Prints a centered pyramid of stars.
-- **invertedtrideccol.js**: Prints an inverted triangle pattern.
-- **rightangledtrianglealignedstar.js**: Prints a right-angled triangle aligned with stars.
-- **righttriinc.js**: Prints an increasing right triangle pattern.
-- **squarestars.js**: Prints a square of stars.
+- **centerpyramid.js**: Print centered pyramid star patterns in multiple ways.
+- **invertedtrideccol.js**: Print an inverted triangle of stars.
+- **rightangledtrianglealignedstar.js**: Print right-angled triangle patterns with stars and binary numbers.
+- **righttriinc.js**: Print increasing right triangle patterns with stars and numbers.
+- **squarestars.js**: Print a square of stars.
 
 ---
 
