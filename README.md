@@ -1,5 +1,15 @@
 # DSA Project
 
+## Recent Learning Highlights (Day 5)
+
+Today, I focused on three classic array problems and explored multiple approaches for each:
+
+- **Missing Number:** Efficiently found the missing value in a sequence using XOR, sum-based, and loop-based methods (see comments in `missingNumber.js`).
+- **Max Consecutive Ones:** Used a linear scan with a counter to track the maximum streak of 1's (see `maxConsecutiveOnes.js`).
+- **Single Number:** Identified the unique element using bitwise XOR for O(n) time and O(1) space (see `singleNumber.js`).
+
+Check the code comments in each file for alternative solutions and explanations!
+
 This repository contains a comprehensive collection of Data Structures and Algorithms (DSA) practice problems and solutions, organized by topic. Each file provides a JavaScript implementation of a classic problem, with clear code and problem statements for learning and interview preparation.
 
 ## Folder Structure
