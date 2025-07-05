@@ -1,21 +1,37 @@
+// function findLucky(arr){
+//     let hash = {}
+//     let max = -1
+//     for(let i=0;i<arr.length;i++){
+//         if(hash[arr[i]]===undefined){
+//             hash[arr[i]]=0
+//         }
+//         hash[arr[i]]+=1
+//     }
+//     for(let i in hash){
+//         if(i==hash[i]){
+//             console.log(i,hash[i])
+//             if(max<hash[i]){
+//                 max=hash[i]
+//             }
+//         }
+//     }
+//     return max
+// }
+
+
+// we are assuming that elements in the array should be less than 500
 function findLucky(arr){
-    let hash = {}
-    let max = -1
-    for(let i=0;i<arr.length;i++){
-        if(hash[arr[i]]===undefined){
-            hash[arr[i]]=0
-        }
-        hash[arr[i]]+=1
+    const count = new Array(501).fill(0)
+    for(const num of arr){
+        count[num]++
     }
-    for(let i in hash){
-        if(i==hash[i]){
-            console.log(i,hash[i])
-            if(max<hash[i]){
-                max=hash[i]
-            }
+    for(let i = 500; i>0; i--){
+        if(count[i]===i){
+            return count[i]
         }
     }
-    return max
+
+    return -1
 }
 
 console.log(findLucky([2,2,3,4]))
