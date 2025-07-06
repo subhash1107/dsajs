@@ -1,14 +1,16 @@
 # DSA Project
 
-## Recent Learning Highlights (Day 5)
+## Recent Learning Highlights (Day 7)
 
-Today, I focused on three classic array problems and explored multiple approaches for each:
+Today, I worked on a variety of problems across arrays, searching, and recursion:
 
-- **Missing Number:** Efficiently found the missing value in a sequence using XOR, sum-based, and loop-based methods (see comments in `missingNumber.js`).
-- **Max Consecutive Ones:** Used a linear scan with a counter to track the maximum streak of 1's (see `maxConsecutiveOnes.js`).
-- **Single Number:** Identified the unique element using bitwise XOR for O(n) time and O(1) space (see `singleNumber.js`).
+- **chunkArray.js**: Learned how to split an array into chunks of a specified size, useful for batching and pagination tasks.
+- **findSumPairs.js**: Implemented a class to efficiently find if any pair of numbers from two arrays sums to a given value, exploring hashing and frequency maps.
+- **fibonacciSeries.js**: Explored multiple ways to generate the Fibonacci sequence, including recursion, iteration, and memoization.
+- **linearSearch.js**: Practiced the basic linear search algorithm to find an element in an array, with discussion on time complexity.
+- **binarySearch.js**: Implemented binary search for sorted arrays, both iteratively and recursively, and discussed its efficiency over linear search.
 
-Check the code comments in each file for alternative solutions and explanations!
+Check the respective files for code, comments, and alternative approaches!
 
 This repository contains a comprehensive collection of Data Structures and Algorithms (DSA) practice problems and solutions, organized by topic. Each file provides a JavaScript implementation of a classic problem, with clear code and problem statements for learning and interview preparation.
 
