@@ -1,0 +1,17 @@
+arr = [2,0,2,1,1,0]
+
+outer 1st iteration:
+arr[1]=0
+prev = 0
+
+inner 1st iteration:
+arr[1]=arr[0]
+              -  [2,2,2,1,1,0]
+              p-- = 0
+arr[0] = 0
+              -[0,2,2,1,1,0]                 
+outer 2nd iteration:
+arr[2] = 2
+prev = 1
+
+              
