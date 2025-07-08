@@ -10,6 +10,17 @@ Today, I worked on a variety of problems across arrays, searching, and recursion
 - **linearSearch.js**: Practiced the basic linear search algorithm to find an element in an array, with discussion on time complexity.
 - **binarySearch.js**: Implemented binary search for sorted arrays, both iteratively and recursively, and discussed its efficiency over linear search.
 
+### Sorting Algorithms (Latest Learning)
+
+Recently, I explored and implemented several classic sorting algorithms:
+
+- **Bubble Sort** (`bubbleSort.js`): Iteratively compares and swaps adjacent elements to bubble the largest values to the end. Includes an optimization to stop early if the array is already sorted.
+- **Insertion Sort** (`InsertionSort.js`): Builds the sorted array one element at a time by inserting each new element into its correct position among the previously sorted elements.
+- **Selection Sort** (`selectionSort.js`): Selects the minimum element from the unsorted part and swaps it with the first unsorted element, moving the boundary of the sorted section forward.
+- **Merge Sort** (`mergeSort.js`): A classic divide-and-conquer algorithm that recursively splits the array, sorts each half, and merges them back together for efficient O(n log n) sorting.
+
+Check the respective files for code, comments, and example runs of each sorting algorithm!
+
 Check the respective files for code, comments, and alternative approaches!
 
 This repository contains a comprehensive collection of Data Structures and Algorithms (DSA) practice problems and solutions, organized by topic. Each file provides a JavaScript implementation of a classic problem, with clear code and problem statements for learning and interview preparation.
