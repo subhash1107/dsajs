@@ -1,5 +1,14 @@
 # DSA Project
 
+## Recent Learning Highlights (Day 10)
+
+Today, I worked on two new problems:
+
+- **mixSort.js**: Implemented a custom sort function that separates strings and numbers in an array, sorts each group individually, and then combines them. Practiced type checking and sorting logic for mixed-type arrays.
+- **removeDuplicatesUnsorted.js**: Explored two approaches to remove duplicates from an unsorted array: using a Set for simplicity, and using a Map to do it in-place while preserving order.
+
+Check the respective files for code, comments, and example runs!
+
 ## Recent Learning Highlights (Day 7)
 
 Today, I worked on a variety of problems across arrays, searching, and recursion:
