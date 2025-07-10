@@ -1,5 +1,16 @@
 # DSA Project
 
+## Recent Learning Highlights (Day 11)
+
+Today, I worked on several new problems and practice implementations:
+
+- **msort.js**: Practiced implementing Merge Sort from scratch, reinforcing the divide-and-conquer approach and in-place merging.
+- **quickSort.js**: Wrote a custom Quick Sort to deepen understanding of partitioning and recursion in sorting algorithms.
+- **shuffle.js**: Explored different ways to shuffle an array, including the efficient Fisher-Yates algorithm for unbiased randomization.
+- **onceExecute.js**: Created a higher-order function that ensures a given function can only be executed once, useful for scenarios like one-time initialization.
+
+Check the respective files for code, comments, and example runs!
+
 ## Recent Learning Highlights (Day 10)
 
 Today, I worked on two new problems:
@@ -29,6 +40,16 @@ Recently, I explored and implemented several classic sorting algorithms:
 - **Merge Sort** (`mergeSort.js`): A classic divide-and-conquer algorithm that recursively splits the array, sorts each half, and merges them back together for efficient O(n log n) sorting.
 
 Check the respective files for code, comments, and example runs of each sorting algorithm!
+
+### Additional Practice Sorting Algorithms
+
+In addition to the classic sorting algorithms, I created a few files for extra practice and experimentation:
+
+- **msort.js**: My own implementation of Merge Sort for practice. Recursively splits the array, sorts, and merges. Run with sample data to see step-by-step sorting.
+- **quickSort.js**: Practice implementation of Quick Sort using partitioning and recursion. Good for understanding in-place sorting and pivot logic.
+- **mixSort.js**: Custom sort function that separates strings and numbers in an array, sorts each group individually, and then combines them. Useful for mixed-type arrays. (Note: You can shuffle the array before sorting to see how the function handles different input orders.)
+
+Check these files for code, comments, and example runs!
 
 Check the respective files for code, comments, and alternative approaches!
 
