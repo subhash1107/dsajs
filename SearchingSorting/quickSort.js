@@ -3,7 +3,10 @@ function quickSort(arr) {
     let i = start,pivot=arr[end]
     for(let j = start;j<end;j++){
         if(arr[j]<=pivot){
-            [arr[j],arr[i]]=[arr[i],arr[j]]
+          if(i!==j){
+          [arr[j],arr[i]]=[arr[i],arr[j]]
+          }
+          // only increase i when j<=pivot
             i++
         }
     }
