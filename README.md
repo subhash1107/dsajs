@@ -1,5 +1,33 @@
 # DSA Project
 
+## Recent Learning Highlights (Day 14)
+
+Today, I worked on two new problems:
+
+- **basicStack.js**: Implemented a complete Stack data structure class with all essential methods including push, pop, peek, isEmpty, size, and clear. The implementation uses an array as the underlying storage and provides a clean interface for stack operations, demonstrating LIFO (Last In, First Out) behavior.
+- **anagram.js**: Created a function to check if two strings are anagrams by comparing character frequencies. The implementation uses regex to clean non-alphabetic characters, converts to lowercase, and uses a hash map to track character counts efficiently.
+
+Check the respective files for code, comments, and example runs!
+
+## Recent Learning Highlights (Day 13)
+
+Today, I worked on two new problems:
+
+- **findValueByPath.js**: Implemented a function to get values from nested objects using dot notation paths. The function handles both regular object properties and array indices, with proper error handling for undefined/null values. Useful for accessing deeply nested data structures safely.
+- **validPalindrome.js**: Created a function to validate if a string is a palindrome, ignoring case, spaces, and special characters. The implementation uses regex to clean the string and then compares it with its reverse.
+
+Check the respective files for code, comments, and example runs!
+
+## Recent Learning Highlights (Day 12)
+
+Today, I worked on three new problems:
+
+- **qsort.js**: Implemented Quick Sort algorithm from scratch, focusing on the partitioning logic and recursive sorting approach. The implementation uses the last element as pivot and demonstrates the divide-and-conquer strategy.
+- **countVowel.js**: Created a function to count vowels in a string using a Set for efficient lookup. The implementation handles both uppercase and lowercase vowels and shows how Sets can improve performance over string includes() method.
+- **curry.js**: Implemented function currying, a functional programming technique that allows partial application of functions. The curried function can be called with any number of arguments and returns a new function until all required arguments are provided.
+
+Check the respective files for code, comments, and example runs!
+
 ## Recent Learning Highlights (Day 11)
 
 Today, I worked on several new problems and practice implementations:
